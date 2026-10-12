@@ -1,0 +1,22 @@
+# Maven
+/target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local deployment/configuration
+.env
+*.local
+
+# Local Tomcat context files
+# Keep production JNDI credentials outside the repository.
