@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: trendify-boutique
+    runtime: docker
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8080
